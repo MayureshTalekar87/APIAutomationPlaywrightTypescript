@@ -9,6 +9,7 @@ async function globalSetup(config: FullConfig) {
 
   process.env.BOOKING_API = envConfig.bookingAPI;
   process.env.AUTH_API = envConfig.authAPI;
+  process.env.XML_AS_FORM_API = envConfig.xmlAsFormAPI;
 }
 
 export default globalSetup;

@@ -5,13 +5,16 @@ export const environments = {
     dev: {
         bookingAPI: "https://restful-booker.herokuapp.com",
         authAPI: "https://restful-booker.herokuapp.com",
+        xmlAsFormAPI: "https://api.restful-api.dev/objects",
     },
     qa: {
         bookingAPI: "https://restful-booker.herokuapp.com",
         authAPI: "https://restful-booker.herokuapp.com",
+        xmlAsFormAPI: "https://api.restful-api.dev/objects",
     },
     prod: {
         bookingAPI: "https://restful-booker.herokuapp.com",
         authAPI: "https://restful-booker.herokuapp.com",
+        xmlAsFormAPI: "https://api.restful-api.dev/objects",
     },
 };
